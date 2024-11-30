@@ -1,0 +1,6 @@
+{
+    "customPaths": [
+        "[assembly:/_pro/scenes/missions/thefacility/real_hangar.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/thefacility/real_hangar.brick].pc_entityblueprint"
+    ]
+}

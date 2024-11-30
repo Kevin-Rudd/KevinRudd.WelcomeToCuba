@@ -1,0 +1,203 @@
+{
+	"version": "0.8.0",
+	"id": "KevinRudd.WelcomeToCuba",
+	"name": "Welcome To Cuba",
+	"blobsFolders": ["blobs"],
+	"contentFolders": ["content"],
+	"description": "Sets 'The Final Test' at a 'real' airfield in Cuba rather than a silo in Greenland",
+	"authors": ["Kevin Rudd"],
+	"dependencies": [
+		"00746FB20D1C98C1",{
+		"runtimeID": "003C7A98980FF033",
+		"comment": "Colombia Ground Piece",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00753F60E3B43D71",
+		"comment": "Colombia Rock",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00AAF9822C3D6E65",
+		"comment": "prison_int_doorframe_4x4_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0072FE537EEDC5D5",
+		"comment": "prison_int_wall_4x4_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00B026278CDB88C2",
+		"comment": "prison_int_wall_2x4_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00FB43EBAA65ADCB",
+		"comment": "a_int_wall_3x4_blank_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00C36C7B4E06B56D",
+		"comment": "villa_inside_wall_4x5m_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00AE4095BD7B4BB8",
+		"comment": "Soviet Helicopter",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00D03F330BE61DCF",
+		"comment": "Radio Tower",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00630331F49279F5",
+		"comment": "Dugong Sound",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00032972CFAF8528",
+		"comment": "Dugong Soundbank",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "009C39B3346B3B49",
+		"comment": "Seagull Ground",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00E84516663E9657",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0023F4A8D8717388",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0008624B83DED7D8",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "003EBC8B1A766A14",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0066646AE9C60502",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0079290FD6E771A4",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0039B4652887765A",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00733CE031C9B295",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00734B15D9F0AC56",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00163D2EAF77F128",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0084CF8B5BF10A5C",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0086D3FF5A23FF8A",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0067A506309E7D77",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00F82189E98CD993",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0056A6A178FACFD8",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00221C101D068B09",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0078FF6B669DFF1B",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "007F678C6A46FDA0",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00F878A932945D3C",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "009B154F0B68AD75",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00209FAC41BD6DAA",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00CCAFE9AEF51E7E",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00203DB8E381114D",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00A576E96BDF9513",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "004AF57E9565D7E6",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0076553EF3989023",
+		"comment": "Colorado Ground Stuff",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00F4CEFCBC28FEB9",
+		"comment": "Colorado Ground Stuff",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0002AEAE2EF54B46",
+		"comment": "Colorado Ground Stuff",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "003D6A1767EA2DEB",
+		"comment": "[assembly:/_pro/environment/materials/generic/ground/colombia_blend_sandstone_mud_dirt_g.mi].pc_mi",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00DBD0E72CCCB165",
+		"comment": "Sky_Falcon",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "004F5FFA5651FB35",
+		"comment": "starfield",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0026E1082076FBA6",
+		"comment": "starfield",
+		"portFromChunk1": true
+	}],
+	"localisationOverrides": {
+				"008D33DE8C75CACB": {
+					"english": {
+						"1626680168": "Sierra Cantante, Cuba"
+					},
+					"french": {"1626680168": "Sierra Cantante, Cuba"},
+					"italian": {"1626680168": "Sierra Cantante, Cuba"},
+					"german": {"1626680168": "Sierra Cantante, Kuba"},
+					"spanish": {"1626680168": "Sierra Cantante, Cuba"},
+					"russian": {"1626680168": "Сьерра-Кантанте, Куба"},
+					"chineseSimplified": {"1626680168": "古巴塞拉坎坦特"},
+					"chineseTraditional": {"1626680168": "古巴塞拉坎坦特"},
+					"japanese": {"1626680168": "シエラ カンタンテ、キューバ"}
+				}
+			},
+	"frameworkVersion": "2.2.0"
+}

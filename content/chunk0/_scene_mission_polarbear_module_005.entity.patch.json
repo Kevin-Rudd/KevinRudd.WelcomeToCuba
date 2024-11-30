@@ -1,0 +1,10 @@
+{
+	"tempHash": "00A07698324C95E4",
+	"tbluHash": "00F8CDF8B1E396F2",
+	"patch": [
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/missions/thefacility/real_hangar.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}
