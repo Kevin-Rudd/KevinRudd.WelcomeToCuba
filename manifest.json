@@ -4,6 +4,7 @@
 	"name": "Welcome To Cuba",
 	"blobsFolders": ["blobs"],
 	"contentFolders": ["content"],
+	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/KevinRudd.WelcomeToCuba/master/updates.json",
 	"description": "Sets 'The Final Test' at a 'real' airfield in Cuba rather than a silo in Greenland",
 	"authors": ["Kevin Rudd"],
 	"dependencies": [
