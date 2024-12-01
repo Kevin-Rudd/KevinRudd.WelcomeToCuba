@@ -19617,69 +19617,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"cafe1caf0ad2daa3": {
-			"parent": "cafe9d441096494a",
-			"name": "SoundDefs",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"cafe11a13e3ff3c6": {
-			"parent": "cafe1caf0ad2daa3",
-			"name": "THUGES02",
-			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
-			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
-			"properties": {
-				"m_pResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/sound/sounddefinitions/specops01.sdefs].pc_sdefs",
-						"flag": "5F"
-					}
-				},
-				"m_eVoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_THUGES02"
-				}
-			}
-		},
-		"cafe602b634f1489": {
-			"parent": "cafe1caf0ad2daa3",
-			"name": "THUGES03",
-			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
-			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
-			"properties": {
-				"m_pResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/sound/sounddefinitions/specops02.sdefs].pc_sdefs",
-						"flag": "5F"
-					}
-				},
-				"m_eVoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_THUGES03"
-				}
-			}
-		},
-		"cafebd218e000295": {
-			"parent": "cafe1caf0ad2daa3",
-			"name": "THUGES01",
-			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
-			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
-			"properties": {
-				"m_pResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/sound/sounddefinitions/specops01.sdefs].pc_sdefs",
-						"flag": "5F"
-					}
-				},
-				"m_eVoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_THUGES01"
-				}
-			}
-		},
 		"cafe5e9cbf844dfa": {
 			"parent": "fffffffffffffffe",
 			"name": "Geometry",
@@ -43983,6 +43920,1032 @@
 					"value": "cafea1195a788aaa"
 				}
 			}
+		},
+		"cafe036c67fd7fb1": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 38.42457920764694
+						},
+						"position": {
+							"x": 12.642680168151855,
+							"y": -50.11405944824219,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe019923a34b58": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -32.63341573491351
+						},
+						"position": {
+							"x": 6.0586090087890625,
+							"y": -49.203609466552734,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe365aa43e52bf": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 165.87299995983275
+						},
+						"position": {
+							"x": -52.04364013671875,
+							"y": -84.0167236328125,
+							"z": -54.11064910888672
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe8633a063b404": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 81.92458612994672
+						},
+						"position": {
+							"x": -1.7101709842681885,
+							"y": -0.8067893981933594,
+							"z": -54.11066055297851
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe44566f588a96": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -49.12698429535266
+						},
+						"position": {
+							"x": 5.687224864959717,
+							"y": -35.98160171508789,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe5f5f21f89884": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -95.57565249066414
+						},
+						"position": {
+							"x": -74.49268341064453,
+							"y": -22.448949813842773,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe6a82a56792ad": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -50.57565199453344
+						},
+						"position": {
+							"x": -82.47125244140625,
+							"y": -44.18717956542969,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe594115e0640d": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -49.12698429535266
+						},
+						"position": {
+							"x": 5.736576080322266,
+							"y": -24.125160217285156,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe3cc333096963": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_b",
+			"factory": "0034B6FD73C8DDAB",
+			"blueprint": "002112267839B107",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -53.1749999200904
+						},
+						"position": {
+							"x": 7.985741138458252,
+							"y": -57.667598724365234,
+							"z": -54.11066055297851
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafea9b6e7bb5034": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_b",
+			"factory": "0034B6FD73C8DDAB",
+			"blueprint": "002112267839B107",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 22.45929983915753
+						},
+						"position": {
+							"x": 7.031990051269531,
+							"y": -72.82319641113281,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe4a56fe313a95": {
+			"parent": "cafe999a3834eef8",
+			"name": "Trees",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafea9db757b9fc5": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 38.42457920764694
+						},
+						"position": {
+							"x": 19.0841007232666,
+							"y": -44.49335861206055,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeca430c50804f": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -80.17840205788946
+						},
+						"position": {
+							"x": 19.7744197845459,
+							"y": -9.699321746826172,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafed407671aab97": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_b",
+			"factory": "0034B6FD73C8DDAB",
+			"blueprint": "002112267839B107",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -125.44513621235616
+						},
+						"position": {
+							"x": 9.805633544921877,
+							"y": -65.21280670166016,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe8f02365b1706": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 29.635929127902024
+						},
+						"position": {
+							"x": 6.531138896942139,
+							"y": -31.21681022644043,
+							"z": -54.14952850341797
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe988c39b87893": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -50.57565199453344
+						},
+						"position": {
+							"x": -58.544979095458984,
+							"y": -58.73788070678711,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeeb637c09f4fb": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -80.17840205788946
+						},
+						"position": {
+							"x": 20.03030014038086,
+							"y": -31.53546905517578,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafee7a7e2d39240": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -49.12698429535266
+						},
+						"position": {
+							"x": 6.4194560050964355,
+							"y": -75.69706726074219,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafefacbce4a7f04": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 165.87299995983275
+						},
+						"position": {
+							"x": -12.50685977935791,
+							"y": -77.24678802490234,
+							"z": -54.11412811279297
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe068b8c475a0d": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -53.02968619748203
+						},
+						"position": {
+							"x": 8.780998229980469,
+							"y": -39.94095993041992,
+							"z": -54.14952850341797
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafecf2f0c569742": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 117.27553103227092
+						},
+						"position": {
+							"x": 4.843608856201172,
+							"y": -58.24420928955078,
+							"z": -54.14952850341797
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafec96cd34879dc": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -49.12698429535266
+						},
+						"position": {
+							"x": 9.39715576171875,
+							"y": -56.29159164428711,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe25ec502524cf": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_b",
+			"factory": "0034B6FD73C8DDAB",
+			"blueprint": "002112267839B107",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 156.77585918088525
+						},
+						"position": {
+							"x": 7.134476184844971,
+							"y": -65.89559936523438,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafef005d3880625": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 22.45929983915753
+						},
+						"position": {
+							"x": 8.84835433959961,
+							"y": -44.66817092895508,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe5c1795e6015b": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_b",
+			"factory": "0034B6FD73C8DDAB",
+			"blueprint": "002112267839B107",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -125.44513621235616
+						},
+						"position": {
+							"x": 7.3542327880859375,
+							"y": -60.022430419921875,
+							"z": -54.11066055297851
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe765f37c55051": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 114.08238799559466
+						},
+						"position": {
+							"x": 9.035423278808594,
+							"y": -69.79058074951172,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeca719bf0beb4": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -50.57565199453344
+						},
+						"position": {
+							"x": -81.0981674194336,
+							"y": -40.0843391418457,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafee7cd72382804": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 22.45929983915753
+						},
+						"position": {
+							"x": 15.959540367126465,
+							"y": -64.2554702758789,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe9742c28e2d90": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 81.92458612994672
+						},
+						"position": {
+							"x": -9.93838882446289,
+							"y": -3.172382116317749,
+							"z": -53.84128952026367
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe8a07e7ed07bb": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 3.8331386908711234
+						},
+						"position": {
+							"x": -44.11106872558594,
+							"y": -84.42418670654297,
+							"z": -54.11064910888672
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe3eed79f8c1e1": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_b",
+			"factory": "0034B6FD73C8DDAB",
+			"blueprint": "002112267839B107",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 76.53113635562424
+						},
+						"position": {
+							"x": 7.445426940917969,
+							"y": -55.436710357666016,
+							"z": -54.11066055297851
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe95424f728ba5": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_b",
+			"factory": "0034B6FD73C8DDAB",
+			"blueprint": "002112267839B107",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 24.66462223513332
+						},
+						"position": {
+							"x": 6.978553771972656,
+							"y": -68.03996276855469,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe04636fdaa9aa": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_c",
+			"factory": "0046C87A98C7C685",
+			"blueprint": "004BF097A1C30672",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -32.63341573491351
+						},
+						"position": {
+							"x": 12.024510383605955,
+							"y": -36.45458984375,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe62ca26771b5a": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -53.02968619748203
+						},
+						"position": {
+							"x": 4.843605041503906,
+							"y": -64.13406372070312,
+							"z": -54.09410095214844
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe9a4890f7dc63": {
+			"parent": "cafe4a56fe313a95",
+			"name": "palm_queen_15m_a",
+			"factory": "0055AC9A7A7EFB29",
+			"blueprint": "00BFB8058E76C095",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -50.57565199453344
+						},
+						"position": {
+							"x": -77.84429931640625,
+							"y": -53.7675895690918,
+							"z": -54.11069107055664
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -44154,6 +45117,24 @@
 						"eAVV_CIVMALEES01",
 						"eAVV_CIVMALEES02",
 						"eAVV_CIVMALEES03"
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b388a0c9e993189c",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_JANUS",
+						"eAVV_STRANDBERG",
+						"eAVV_STUYVESANT"
 					]
 				}
 			}
@@ -44477,6 +45458,10 @@
 		{
 			"ref": "b47fde87a728ef90",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "27f3174f5825512b",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],

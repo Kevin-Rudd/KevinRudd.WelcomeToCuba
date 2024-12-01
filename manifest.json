@@ -8,6 +8,18 @@
 	"authors": ["Kevin Rudd"],
 	"dependencies": [
 		"00746FB20D1C98C1",{
+			"runtimeID": "00A2AF5A03872B04",
+			"comment": "THUGES SDEFs",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00D4AD6F73436813",
+			"comment": "THUGES SDEFs",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "004FA8130E038A1A",
+			"comment": "THUGES SDEFs",
+			"portFromChunk1": true
+		},{
 		"runtimeID": "003C7A98980FF033",
 		"comment": "Colombia Ground Piece",
 		"portFromChunk1": true
@@ -184,6 +196,30 @@
 		"comment": "starfield",
 		"portFromChunk1": true
 	}],
+	"options": [
+		{
+			"name": "No AOM",
+			"type": "conditional",
+			"condition": "\"KevinRudd.AccentOverhaul\" not in config.loadOrder",
+			"contentFolders": [
+				"AOM Shit"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0094930EFDEEA0FE",
+					"comment": "Janus",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00BDAFDA7A6DDAF4",
+					"comment": "Strandberg",
+					"portFromChunk1": true
+				},
+				"00C971B032756DED",
+				"00F29C6A6DA00025"
+			]
+		}
+	],
 	"localisationOverrides": {
 				"008D33DE8C75CACB": {
 					"english": {

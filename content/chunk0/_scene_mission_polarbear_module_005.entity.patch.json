@@ -3,7 +3,626 @@
 	"tbluHash": "00F8CDF8B1E396F2",
 	"patch": [
 		{
+			"SubEntityOperation": [
+				"fffffffffffffffe",
+				{ "SetName": "Scene_Mission_Polarbear" }
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecbde858ed9e0",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "SoundDefs",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafede36f184ddcf",
+				{
+					"parent": "cafecbde858ed9e0",
+					"name": "THUGES02",
+					"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+					"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+					"properties": {
+						"m_pResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/sounddefinitions/thuges02.sdefs].pc_sdefs",
+								"flag": "5F"
+							}
+						},
+						"m_eVoiceVariation": {
+							"type": "EActorVoiceVariation",
+							"value": "eAVV_THUGES02"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeadf1d1922c35",
+				{
+					"parent": "cafecbde858ed9e0",
+					"name": "THUGES03",
+					"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+					"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+					"properties": {
+						"m_pResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/sounddefinitions/thuges03.sdefs].pc_sdefs",
+								"flag": "5F"
+							}
+						},
+						"m_eVoiceVariation": {
+							"type": "EActorVoiceVariation",
+							"value": "eAVV_THUGES03"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3c94332a2a14",
+				{
+					"parent": "cafecbde858ed9e0",
+					"name": "THUGES01",
+					"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+					"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+					"properties": {
+						"m_pResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/sounddefinitions/thuges01.sdefs].pc_sdefs",
+								"flag": "5F"
+							}
+						},
+						"m_eVoiceVariation": {
+							"type": "EActorVoiceVariation",
+							"value": "eAVV_THUGES01"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef3605594a09c",
+				{
+					"parent": "cafecbde858ed9e0",
+					"name": "STRANDY",
+					"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+					"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+					"properties": {
+						"m_pResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/sounddefinitions/strandberg.sdefs].pc_sdefs",
+								"flag": "5F"
+							}
+						},
+						"m_eVoiceVariation": {
+							"type": "EActorVoiceVariation",
+							"value": "eAVV_STRANDBERG"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea8881c18c38f",
+				{
+					"parent": "cafecbde858ed9e0",
+					"name": "STUYVY",
+					"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+					"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+					"properties": {
+						"m_pResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/sounddefinitions/stuyvesant.sdefs].pc_sdefs",
+								"flag": "5F"
+							}
+						},
+						"m_eVoiceVariation": {
+							"type": "EActorVoiceVariation",
+							"value": "eAVV_STUYVESANT"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec65578072faa",
+				{
+					"parent": "cafecbde858ed9e0",
+					"name": "JANY",
+					"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+					"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+					"properties": {
+						"m_pResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/sound/sounddefinitions/janus.sdefs].pc_sdefs",
+								"flag": "5F"
+							}
+						},
+						"m_eVoiceVariation": {
+							"type": "EActorVoiceVariation",
+							"value": "eAVV_JANUS"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "1a46bacfa43c5321",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "ae5337f40e5271a6",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "6d8b4262ad7ef214",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "8e551dd747ed14ab",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "ec30ed3a5a41fbfe",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "1e2434302602ecd8",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "4d216bc166d12dd2",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "2a2411f42b5ddf84",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "ab2759b08af9b282",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "cfa173290d147ffb",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "7c2d3dbc32eedb69",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "73108d808c93fdbd",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "49ec499628a926a3",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "68d3b16008eb406a",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "d0934dc2272be4ca",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "6f5328e341ea2297",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "23ec458e87d04525",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "fc0dcebd0bd9ea10",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "cd66ce25ffb3d05c",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "0dc83f8757862895",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "9dfbaa3f7bec3184",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "59e86e573a411ca7",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "0d01a017ed4644c6",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "b71ac5e174c810f1",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "6bb7e6f2d25821a2",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "d73b1bb9ef66cc03",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "659f9f7d9beb42ce",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "dc3503bb85a5967a",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "f95da72caf874f5b",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "7a5cafa0986971fe",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "9b9c9e58d6b4031c",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "f33d6181b4e46480",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "5a8853754a1e45a1",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "e067c741ed6e8b2c",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "b969461685be90c8",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				},
+				"propertyName": "m_eRequiredVoiceVariation",
+				"propertyOverride": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_JANUS"
+				}
+			}
+		},
+		{
 			"AddExternalScene": "[assembly:/_pro/scenes/missions/thefacility/real_hangar.brick].pc_entitytype"
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
 		}
 	],
 	"patchVersion": 6
