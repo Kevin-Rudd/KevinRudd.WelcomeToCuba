@@ -11884,12 +11884,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -23.904535551280276
+							"z": -23.904518379432183
 						},
 						"position": {
 							"x": 63.75714111328125,
 							"y": 94.3922119140625,
-							"z": -7.905389785766602
+							"z": -12.309202194213867
 						}
 					}
 				},
@@ -12114,14 +12114,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.22924996966573227,
-							"y": -0.5061574883910354,
-							"z": -36.47537244994679
+							"x": -0.2292755303070948,
+							"y": -0.5061665568671119,
+							"z": -36.475373413470514
 						},
 						"position": {
-							"x": 72.48568725585938,
-							"y": 86.099609375,
-							"z": -9.255193710327148
+							"x": 72.48429870605469,
+							"y": 86.10079956054688,
+							"z": -11.724716186523438
 						}
 					}
 				},
@@ -12213,12 +12213,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 34.21943505061605
+							"z": 34.21962742431866
 						},
 						"position": {
 							"x": 53.80513000488281,
 							"y": 101.08930206298828,
-							"z": -8.810558319091797
+							"z": -11.153985977172852
 						}
 					}
 				},
@@ -13315,14 +13315,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 6.385508633747005,
-							"y": -6.783556688696744,
-							"z": 90.88491707794763
+							"x": 6.385489790923974,
+							"y": -6.783585158710295,
+							"z": 90.88490282123476
 						},
 						"position": {
-							"x": 67.62184143066406,
-							"y": 89.5791015625,
-							"z": -10.587730407714844
+							"x": 67.62122344970703,
+							"y": 89.58002471923828,
+							"z": -12.40260124206543
 						}
 					}
 				},
@@ -15826,12 +15826,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -23.904535551280276
+							"z": -23.904527568661727
 						},
 						"position": {
-							"x": 63.75714111328125,
-							"y": 94.3922119140625,
-							"z": -7.905389785766602
+							"x": 63.75713348388672,
+							"y": 94.39221954345705,
+							"z": -10.425664901733398
 						}
 					}
 				},
@@ -24649,34 +24649,6 @@
 				}
 			}
 		},
-		"cafe5fd9dd14ec49": {
-			"parent": "cafef38ffd7f2b97",
-			"name": "fence_wire_support_A",
-			"factory": "[assembly:/_pro/environment/templates/architecture/fences/fence_wire_a.template?/fence_wire_support_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/architecture/fences/fence_wire_a.template?/fence_wire_support_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 166.14143408864803
-						},
-						"position": {
-							"x": 19.881900787353516,
-							"y": 53.05437850952149,
-							"z": 0.0
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafef38ffd7f2b97",
-					"postInit": true
-				}
-			}
-		},
 		"cafeb787ef9e7565": {
 			"parent": "cafef38ffd7f2b97",
 			"name": "fence_wire_blocker_Base_A90",
@@ -27588,11 +27560,11 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 88.99999930651305
+							"z": 70.26625535811259
 						},
 						"position": {
 							"x": -0.5221266746520996,
-							"y": 68.19115447998047,
+							"y": 78.26537322998047,
 							"z": 2.2043068408966064
 						}
 					}
@@ -28528,11 +28500,7 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1.100000023841858,
-						"y": 1.0,
-						"z": 0.800000011920929
-					}
+					"value": { "x": 0.5, "y": 1.0, "z": 0.800000011920929 }
 				},
 				"m_eSeamFix": {
 					"type": "ESeamFixMode",
@@ -45816,6 +45784,148 @@
 					}
 				}
 			}
+		},
+		"cafe87c79fe9bb54": {
+			"parent": "fffffffffffffffe",
+			"name": "PFObstacles",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafea0851fab80ed": {
+			"parent": "cafe87c79fe9bb54",
+			"name": "PFObstacle 1",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.9259842959470928
+						},
+						"position": {
+							"x": -32.87385940551758,
+							"y": 42.06905746459961,
+							"z": 0.0
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 24.799999237060547,
+						"z": 2.799999952316284
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafebdfed0057912": {
+			"parent": "cafe87c79fe9bb54",
+			"name": "PFObstacle 2",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 88.69528018555414
+						},
+						"position": {
+							"x": -41.652069091796875,
+							"y": 29.424238204956055,
+							"z": -0.35667484998703003
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2999999523162842,
+						"y": 16.600000381469727,
+						"z": 2.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafea56e599f74b2": {
+			"parent": "cafe87c79fe9bb54",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -49.033111572265625,
+							"y": -6.270198822021484,
+							"z": 0.0
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.699999988079071,
+						"y": 80.80000305175781,
+						"z": 3.299999952316284
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafee1f6d673d08e": {
+			"parent": "cafe87c79fe9bb54",
+			"name": "PFObstacle 3",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 37.22389221191406,
+							"y": 40.877811431884766,
+							"z": -0.8625362515449524
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2999999523162842,
+						"y": 29.0,
+						"z": 3.0999999046325684
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -46312,6 +46422,14 @@
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "9409778a96cdc3cc",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "fa68f71be2f45569",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
 		{
 			"ref": "4d6375b90a2a4b31",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"

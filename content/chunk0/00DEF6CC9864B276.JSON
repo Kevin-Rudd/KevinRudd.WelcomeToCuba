@@ -1,5 +1,10 @@
 {
     "Data": {
+        "RandomBricks": {
+            "TimeOfDay": [
+                "assembly:/_pro/scenes/missions/thefacility/hot_cuba_day.brick"
+            ]
+        },
         "Bricks": [],
         "VR": [
             {
@@ -11,44 +16,7 @@
             }
         ],
         "GameChangers": [],
-        "Objectives": [
-            {
-                "Definition": {
-                    "Context": {
-                        "KilledActors": [],
-                        "Targets": [
-                            "579f2544-1970-4865-afa3-ad4566e5f98d"
-                        ]
-                    },
-                    "Scope": "hit",
-                    "States": {
-                        "Start": {
-                            "Kill": {
-                                "Condition": {
-                                    "$eq": [
-                                        "$Value.RepositoryId",
-                                        "579f2544-1970-4865-afa3-ad4566e5f98d"
-                                    ]
-                                },
-                                "Transition": "Success"
-                            }
-                        }
-                    }
-                },
-                "Id": "045c7a1b-0324-4cf1-8814-71e893287a41",
-                "Primary": true,
-                "BriefingText": "$loc UI_CONTRACT_POLARBEAR_GRADUATION_OBJ_KILL",
-                "Type": "statemachine",
-                "HUDTemplate": {
-                    "display": {
-                        "$loc": {
-                            "key": "UI_CONTRACT_GENERAL_OBJ_KILL",
-                            "data": "$($repository 579f2544-1970-4865-afa3-ad4566e5f98d).Name"
-                        }
-                    }
-                }
-            }
-        ],
+        "Objectives": [],
         "GameDifficulties": [{
                 "Difficulty": "easy",
                 "Bricks": []
@@ -67,23 +35,14 @@
         "CreatorUserId": "124be5bd-61c7-48cf-8fcb-8b26fc0b0128",
         "Description": "UI_CONTRACT_POLARBEAR_GRADUATION_DESC",
         "TileImage": "images/contracts/polarbear/graduation/tile.jpg",
-        "DebriefingVideo": "prologue_intermission4",
         "Id": "ada5f2b1-8529-48bb-a596-717f75f5eacb",
         "IsPublished": true,
-        "Location": "LOCATION_ICA_FACILITY",
+        "Location": "LOCATION_CUBA",
         "ScenePath": "assembly:/_PRO/Scenes/Missions/TheFacility/_Scene_Mission_Polarbear_Module_005.entity",
         "Title": "UI_CONTRACT_POLARBEAR_GRADUATION_TITLE",
         "Type": "mission",
         "Release": "1.0.x",
-        "Drops": [
-            "PACKAGE_PEACOCK_ACCESS_PACKAGE"
-        ],
-        "RequiredUnlockable": "ACCESS_HIT_POLARBEAR_MODULE_002B",
         "Opportunities": [
-            "7aa939bf-7a7d-4983-9ac7-4c117e4ca9e7",
-            "2ee0504e-2e6b-48ac-b38a-7ad577a02c1a",
-            "dd238889-0e34-44eb-82db-c1b5484d388c",
-            "f7c3fc51-c6b6-4ad5-8d42-a46acaacff46"
         ]
     },
     "UserData": {}

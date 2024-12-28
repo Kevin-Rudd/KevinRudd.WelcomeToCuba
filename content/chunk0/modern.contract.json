@@ -1,0 +1,87 @@
+{
+    "Data": {
+        "Bricks": ["assembly:/_pro/scenes/missions/thefacility/modernisation_cuba.brick", "assembly:/_pro/scenes/missions/thefacility/ambrose_music.brick"],
+        "VR": [
+            {
+                "Quality": "base",
+                "Bricks": [
+                    "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+                    "assembly:/_pro/scenes/missions/thefacility/vr_overrides_polarbear_graduation.brick"
+                ]
+            }
+        ],
+        "GameChangers": [],
+        "GameDifficulties": [{
+                "Difficulty": "easy",
+                "Bricks": ["assembly:/_pro/scenes/missions/thefacility/tod_cuba_midday.brick"]
+            }, {
+                "Difficulty": "normal",
+                "Bricks": ["assembly:/_pro/scenes/missions/thefacility/tod_cuba_midday.brick"]
+            }, {
+                "Difficulty": "hard",
+                "Bricks": []
+            }
+        ],
+        "Objectives": [
+            {
+                "Definition": {
+                    "Context": {
+                        "KilledActors": [],
+                        "Targets": [
+                            "50f85ca0-2527-4523-a34e-339cd4edc979"
+                        ]
+                    },
+                    "Scope": "hit",
+                    "States": {
+                        "Start": {
+                            "Kill": {
+                                "Condition": {
+                                    "$eq": [
+                                        "$Value.RepositoryId",
+                                        "50f85ca0-2527-4523-a34e-339cd4edc979"
+                                    ]
+                                },
+                                "Transition": "Success"
+                            }
+                        }
+                    }
+                },
+                "Id": "045c7a1b-0324-4cf1-8814-71e893287a41",
+                "Primary": true,
+                "BriefingText": "$loc UI_CONTRACT_POLARBEAR_GRADUATION_OBJ_KILL",
+                "Type": "statemachine",
+                "HUDTemplate": {
+                    "display": {
+                        "$loc": {
+                            "key": "UI_CONTRACT_GENERAL_OBJ_KILL",
+                            "data": "$($repository 50f85ca0-2527-4523-a34e-339cd4edc979).Name"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "CodeName_Hint": "Modern Cuba",
+        "CreationTimestamp": "2015-03-27T13:03:33.163Z",
+        "CreatorUserId": "124be5bd-61c7-48cf-8fcb-8b26fc0b0128",
+        "Description": "The Jaguars are a mercenary group operating in Latina America. They've recently expanded operations into Cuba and the government is not happy with this development. They don't know who's hired the Jaguars but they want to send a message by eliminating the mercenary leader, Juan Cortazar. You know what to do, 47.",
+        "TileImage": "images/ruddy/modern_cuba_tile.jpg",
+        "Id": "aba5f2b1-8529-48bb-a596-717f75f5eacb",
+        "IsPublished": true,
+        "Location": "LOCATION_CUBA",
+        "ScenePath": "assembly:/_pro/scenes/missions/thefacility/_scene_polarbear_005.entity",
+        "Title": "UI_LOCATION_CUBA_TITLE",
+        "Subtype": "flashback",
+        "Type": "flashback",
+        "Release": "1.0.x"
+    },
+    "SMF": {
+        "destinations": {
+            "addToDestinations": true,
+            "peacockIntegration": true,
+            "narrativeContext": "flashback"
+        }
+    },
+    "UserData": {}
+}

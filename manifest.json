@@ -1,14 +1,41 @@
 {
-	"version": "0.8.0",
+	"version": "0.9.0",
 	"id": "KevinRudd.WelcomeToCuba",
 	"name": "Welcome To Cuba",
 	"blobsFolders": ["blobs"],
 	"contentFolders": ["content"],
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/KevinRudd.WelcomeToCuba/master/updates.json",
-	"description": "Sets 'The Final Test' at a 'real' airfield in Cuba rather than a silo in Greenland",
+	"description": "Sets 'The Final Test' at a 'real' airfield in Cuba rather than a silo in Greenland. Works online.",
 	"authors": ["Kevin Rudd"],
 	"dependencies": [
-		"00746FB20D1C98C1",{
+		"0049E402097FE46D,000BA41D084B1850",{
+			"runtimeID": "0016857FFC1B3C75,00C9828BAE046227,00C312F3F201A74E",
+			"comment": "Dugong Music",
+			"toChunk": 1
+		},{
+			"runtimeID": "00C7E997840E11D9",
+			"comment": "Skunk Sky",
+			"portFromChunk1": true
+		},"005731A0439FDF16,008B845B79C7713E,00D65881050E89B4","004DD64E7E835FE5","0075E0E64FC8B786","0094346108D3BCE8","00EDAC6AB40BE5A6","002C7C6085542586",
+		"0065DA77A1B050D1","000A90EDC108755A","0018B5C337EFA649","00E675905F89B5AD",
+		"00E569DC2B6F19FC", "0017C8E59931B20A", "008214A87DB0C179","00B2F001F8A53617",
+		"001EAAAD78B8E60F","0011FB3B3151F8B6","0083308AE7CBFD90","00F2352B1AC67B47",
+		"000E29678C0117A1","00B02F9BD6357B46","00E67884F5C3E391","00C32BA588A2EF4E",
+		"0029FCEC8F733B1F","006011AB83514A04","002D55ADB4FF1E70","00FB8C9E12E38D5C","0080629981257C5E","00B6D07E7B3D6043",
+		"0054E48D9845DA22","00B908AB403626C2","00719C5A3511A5B6","00A724DB06D5163F","005AC9F8B99CF507",
+		"001C0A3B26E38A14","0013D8676507FD49","000EDF8447896471","0000BE483C5B58A9","0043EA47A8A6B7DA",{
+			"runtimeID": "00D03F330BE61DCF",
+			"comment": "Radio Tower",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "007F8E94792894A6",
+			"comment": "Mendoza Head of Security",
+			"toChunk": 1
+		},{
+			"runtimeID": "0074BC921646CEE2",
+			"comment": "Mendoza Mercenaries",
+			"toChunk": 1
+		},"00746FB20D1C98C1",{
 			"runtimeID": "00A2AF5A03872B04",
 			"comment": "THUGES SDEFs",
 			"portFromChunk1": true
@@ -51,10 +78,6 @@
 	},{
 		"runtimeID": "00AE4095BD7B4BB8",
 		"comment": "Soviet Helicopter",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00D03F330BE61DCF",
-		"comment": "Radio Tower",
 		"portFromChunk1": true
 	},{
 		"runtimeID": "00630331F49279F5",
@@ -236,5 +259,77 @@
 					"japanese": {"1626680168": "シエラ カンタンテ、キューバ"}
 				}
 			},
+	"localisation": {
+		"english": {
+			"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_TITLE": "Welcome To Cuba"},
+		"french": {
+			"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_TITLE": "Welcome To Cuba"},
+		"italian": {
+			"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_TITLE": "Welcome To Cuba"},
+		"german": {
+			"UI_LOCATION_PARENT_CUBA_COUNTRY": "Kuba",
+			"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_COUNTRY": "Kuba",
+			"UI_LOCATION_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_TITLE": "Welcome To Cuba"},
+		"spanish": {
+			"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_TITLE": "Welcome To Cuba"},
+		"russian": {
+			"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_TITLE": "Welcome To Cuba"},
+		"chineseSimplified": {
+			"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_TITLE": "Welcome To Cuba"},
+		"chineseTraditional": {
+			"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_TITLE": "Welcome To Cuba"},
+		"japanese": {
+			"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+			"UI_LOCATION_CUBA_CITY": "Sierra Cantante",
+			"UI_LOCATION_CUBA_TITLE": "Welcome To Cuba"
+		}
+	},
+	"packagedefinition": [
+		{
+			"type": "entity",
+			"partition": "base",
+			"path": "[assembly:/_pro/scenes/missions/thefacility/modernisation_cuba.brick].entitytype"
+		},{
+			"type": "entity",
+			"partition": "base",
+			"path": "[assembly:/_pro/scenes/missions/thefacility/ambrose_music.brick].entitytype"
+		},{
+			"type": "entity",
+			"partition": "base",
+			"path": "[assembly:/_pro/scenes/missions/thefacility/tod_cuba_midday.brick].entitytype"
+		}
+	],
 	"frameworkVersion": "2.2.0"
 }
