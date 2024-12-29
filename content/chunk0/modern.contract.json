@@ -58,6 +58,36 @@
                         }
                     }
                 }
+            },{
+                "Id": "2828f753-d86a-41d3-9e12-54b0dc61bf00",
+                "Category": "primary",
+				"ForceShowOnLoadingScreen": true,
+                "ObjectiveType": "setpiece",
+				"IsHidden":true,
+                "Image": "images/contracts/gamechangers/Gamechanger_ICA_Facility_BreakAndEnter.jpg",
+                "BriefingName": "$loc UI_GAMECHANGERS_HOKKAIDO_SAFE_SLEEP_QUARTERS_NAME",
+                "BriefingText": "$loc UI_CONTRACT_KOSUMOSU_OBJ_2",
+                "LongBriefingText": "$loc UI_CUBA_OBJECTIVE_SAFE",
+                "HUDTemplate": {
+                    "display": "$loc UI_CONTRACT_KOSUMOSU_OBJ_2",
+                    "iconType": 17
+                },
+                "Type": "statemachine",
+                "Definition": {
+                    "Context": {
+                        "Targets": ["b5cc311f-a74d-46b2-a800-399440d60922"]
+                    },
+                    "States": {
+                        "Start": {
+                            "ItemPickedUp": {
+                                "Condition": {
+                                    "$eq": ["$Value.RepositoryId", "303ecf9a-50ad-4a90-a705-324ef225c0ac"]
+                                },
+                                "Transition": "Success"
+                            }
+                        }
+                    }
+                }
             }
         ]
     },
@@ -65,7 +95,7 @@
         "CodeName_Hint": "Modern Cuba",
         "CreationTimestamp": "2015-03-27T13:03:33.163Z",
         "CreatorUserId": "124be5bd-61c7-48cf-8fcb-8b26fc0b0128",
-        "Description": "The Jaguars are a mercenary group operating in Latina America. They've recently expanded operations into Cuba and the government is not happy with this development. They don't know who's hired the Jaguars but they want to send a message by eliminating the mercenary leader, Juan Cortazar. You know what to do, 47.",
+        "Description": "UI_CUBA_BRIEFING",
         "TileImage": "images/ruddy/modern_cuba_tile.jpg",
         "Id": "aba5f2b1-8529-48bb-a596-717f75f5eacb",
         "IsPublished": true,
@@ -73,14 +103,14 @@
         "ScenePath": "assembly:/_pro/scenes/missions/thefacility/_scene_polarbear_005.entity",
         "Title": "UI_LOCATION_CUBA_TITLE",
         "Subtype": "flashback",
-        "Type": "flashback",
+        "Type": "specialassignment",
         "Release": "1.0.x"
     },
     "SMF": {
         "destinations": {
             "addToDestinations": true,
             "peacockIntegration": true,
-            "narrativeContext": "flashback"
+            "narrativeContext": "Mission"
         }
     },
     "UserData": {}

@@ -85,19 +85,267 @@
 			},
 			"events": { "SyncBar": { "SyncToNextBar": [] } },
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe4e290794c733": {
+			"parent": "cafefdfcd2e5cbd5",
+			"name": "47 took logbook",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		"cafe4f6afc261d7c": {
+			"parent": "cafeae24d3334e24",
+			"name": "DianaSpeak_TargetDown",
+			"factory": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bPlayDuringStoryDrama": {
+					"type": "bool",
+					"value": true
+				},
+				"m_pHandlerSpeak": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/island/29000_elusive/29000_goldendoublet/29000_goldendoublet_handler/ds29501_targetkilled.sweetdialog?/ds29501_targetkilled_diana_et_001.sweetdialogitem].pc_dialogevent",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe91c506a30022": {
+			"parent": "cafeae24d3334e24",
+			"name": "DianaSpeak_MissionComplete",
+			"factory": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bPlayDuringStoryDrama": {
+					"type": "bool",
+					"value": true
+				},
+				"m_pHandlerSpeak": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/island/29000_elusive/29000_goldendoublet/29000_goldendoublet_handler/ds29503_missiondone.sweetdialog?/ds29503_missiondone_diana_et_001.sweetdialogitem].pc_dialogevent",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafeba12bed247d0": {
+			"parent": "cafeae24d3334e24",
+			"name": "Is Cortazar Alive",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4230270dbbc7"
+				}
+			},
+			"events": {
+				"PollTrue": { "Trigger": ["cafe6f0448a43f0b"] },
+				"PollFalse": { "Trigger": ["cafe91c506a30022"] }
+			}
+		},
+		"cafe88afce0eecf5": {
+			"parent": "cafefdfcd2e5cbd5",
+			"name": "Journal Taken",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4e290794c733"
+				}
+			},
+			"outputCopying": { "OnTrue": { "FIRE": ["cafefdfcd2e5cbd5"] } }
+		},
+		"cafe6f0448a43f0b": {
+			"parent": "cafeae24d3334e24",
+			"name": "DianaSpeak_JournalStolen",
+			"factory": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bPlayDuringStoryDrama": {
+					"type": "bool",
+					"value": true
+				},
+				"m_pHandlerSpeak": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/island/29000_elusive/29000_goldendoublet/29000_goldendoublet_handler/ds29502_journalstolen.sweetdialog?/ds29502_journalstolen_diana_et_001.sweetdialogitem].pc_dialogevent",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafeae24d3334e24": {
+			"parent": "fffffffffffffffe",
+			"name": "DianaSpeak",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafef5db414e9576": {
+			"parent": "cafe996dee295bdd",
+			"name": "Target Alive",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4230270dbbc7"]
+				}
+			},
+			"outputCopying": {
+				"OnFalse": { "FIRE": ["cafe996dee295bdd"] }
+			}
+		},
+		"cafefdfcd2e5cbd5": {
+			"parent": "cafeae24d3334e24",
+			"name": "Journal Taken",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"events": { "FIRE": { "Poll": ["cafeba12bed247d0"] } }
+		},
+		"cafe19b741cee60d": {
+			"parent": "cafeae24d3334e24",
+			"name": "JournalTaken",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4e290794c733"
+				}
+			},
+			"events": {
+				"PollFalse": { "Trigger": ["cafe4f6afc261d7c"] },
+				"PollTrue": { "Trigger": ["cafe91c506a30022"] }
+			}
+		},
+		"cafe996dee295bdd": {
+			"parent": "cafeae24d3334e24",
+			"name": "Target Down",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"events": { "FIRE": { "Poll": ["cafe19b741cee60d"] } }
+		},
+		"cafe4230270dbbc7": {
+			"parent": "cafeba12bed247d0",
+			"name": "Cortazar is alive",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafecf56ec66332b": {
+			"parent": "cafeba12bed247d0",
+			"name": "Cortazar death",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b969461685be90c8",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+					}
+				}
+			},
+			"events": {
+				"OnDead": { "SetFalse": ["cafe4230270dbbc7"] },
+				"OnPacified": { "SetFalse": [] },
+				"OnAlive": { "SetTrue": ["cafe4230270dbbc7"] }
+			}
 		}
 	},
-	"propertyOverrides": [],
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "b969461685be90c8",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "4ee327a015bb713a",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/gamechangers_safe_office.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4ea32eab2c74b8c5",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/gamechangers_safe_office.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "303ecf9a-50ad-4a90-a705-324ef225c0ac"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "8db14d9bfa7ccf91",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/gamechangers_safe_office.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"SpawnerOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.59999696376927
+						},
+						"position": {
+							"x": -0.029999999329447743,
+							"y": -0.10000000149011612,
+							"z": 0.800000011920929
+						}
+					}
+				}
+			}
+		}
+	],
 	"overrideDeletes": [
 		{
 			"ref": "6da36a228eb4dd31",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
+		},
+		{
+			"ref": "fa170eb19855bcce",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/gamechangers_safe_office.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [],
+	"pinConnectionOverrides": [
+		{
+			"fromEntity": {
+				"ref": "8db14d9bfa7ccf91",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/gamechangers_safe_office.brick].pc_entitytype"
+			},
+			"fromPin": "Open",
+			"toEntity": "cafe4e290794c733",
+			"toPin": "SetTrue"
+		}
+	],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/gamechangers_safe_office.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

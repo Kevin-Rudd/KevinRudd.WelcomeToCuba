@@ -1,5 +1,15 @@
-{
-	"LOCATION_PARENT_CUBA": {
+const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
+
+module.exports = function TraditionsOfTheTrade(controller) {
+	if (!controller.smf.modIsInstalled("Kercyx.Tradition")) {
+		log(LogLevel.ERROR, "[Taditions of the Trade] Mod currently not deployed, please deploy it in SMF")
+		return
+	}
+
+	controller.missionsInLocations["LOCATION_CUBA"] = ["aba5f2b1-8529-48bb-a596-717f75f5eacb", "ada5f2b1-8529-48bb-a596-717f75f5eacb"]
+
+	controller.configManager.configs.LocationsData["parents"]["LOCATION_PARENT_CUBA"] = {
+		Id: "LOCATION_PARENT_CUBA",
 		"Guid": "db751edf-87af-4c81-8855-76a8fb8ad96f",
 		"Type": "location",
 		"Subtype": "location",
@@ -25,9 +35,11 @@
 			"ProgressionKey": "LOCATION_CUBA",
 			"Season": 1,
 			"RequiredResources": ["[assembly:/_pro/scenes/missions/thefacility/_scene_polarbear_005.entity].entitytemplate"]
-		}
-	},
-	"LOCATION_CUBA": {
+		}		
+	}
+
+	controller.configManager.configs.LocationsData["children"]["LOCATION_CUBA"] = {
+		Id: "LOCATION_CUBA",
 		"Guid": "53e5c898-db72-431d-9d3d-baba814b8a97",
 		"Type": "location",
 		"Subtype": "sublocation",
@@ -56,4 +68,30 @@
 			"RequiredResources": ["[assembly:/_pro/scenes/missions/thefacility/_scene_polarbear_005.entity].entitytemplate"]
 		}
 	}
+
+	controller.configManager.configs.LocationsData["parents"] = Object.entries(
+		controller.configManager.configs.LocationsData["parents"]
+	)
+		.sort((a, b) => a[1]["Properties"]["Order"] - b[1]["Properties"]["Order"])
+		.reduce(
+			(obj, [key, value]) => ({
+				...obj,
+				[key]: value
+			}),
+			{}
+		)
+
+	controller.configManager.configs.LocationsData["children"] = Object.entries(
+		controller.configManager.configs.LocationsData["children"]
+	)
+		.sort((a, b) => a[1]["Properties"]["Order"] - b[1]["Properties"]["Order"])
+		.reduce(
+			(obj, [key, value]) => ({
+				...obj,
+				[key]: value
+			}),
+			{}
+		)
+
+	log(LogLevel.INFO, "[Traditions of the Trade] Plugin active.")
 }
