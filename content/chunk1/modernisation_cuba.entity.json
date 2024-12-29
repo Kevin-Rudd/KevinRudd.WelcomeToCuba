@@ -4813,10 +4813,6 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_005.brick].pc_entitytype"
 		},
 		{
-			"ref": "6d9304fbdb00f744",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_polarbear_module_005.brick].pc_entitytype"
-		},
-		{
 			"ref": "cc941ea2bc5975de",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
 		},

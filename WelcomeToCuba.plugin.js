@@ -1,12 +1,12 @@
 const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
 
 module.exports = function TraditionsOfTheTrade(controller) {
-	if (!controller.smf.modIsInstalled("Kercyx.Tradition")) {
-		log(LogLevel.ERROR, "[Taditions of the Trade] Mod currently not deployed, please deploy it in SMF")
+	if (!controller.smf.modIsInstalled("KevinRudd.WelcomeToCuba")) {
+		log(LogLevel.ERROR, "[Welcome To Cuba] Mod currently not deployed, please deploy it in SMF")
 		return
 	}
 
-	controller.missionsInLocations["LOCATION_CUBA"] = ["aba5f2b1-8529-48bb-a596-717f75f5eacb", "ada5f2b1-8529-48bb-a596-717f75f5eacb"]
+	controller.missionsInLocations["LOCATION_CUBA"] = ["aba5f2b1-8529-48bb-a596-717f75f5eacb", "ada5f2b1-8529-48bb-a596-717f75f5eacb","c469d91d-01fc-4314-b22c-71cb804e92c0"]
 
 	controller.configManager.configs.LocationsData["parents"]["LOCATION_PARENT_CUBA"] = {
 		Id: "LOCATION_PARENT_CUBA",
@@ -93,5 +93,5 @@ module.exports = function TraditionsOfTheTrade(controller) {
 			{}
 		)
 
-	log(LogLevel.INFO, "[Traditions of the Trade] Plugin active.")
+	log(LogLevel.INFO, "[Welcome To Cuba] Cuba destination and Final Test planning screens added.")
 }

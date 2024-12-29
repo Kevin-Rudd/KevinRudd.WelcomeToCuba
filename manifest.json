@@ -7,6 +7,7 @@
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/KevinRudd.WelcomeToCuba/master/updates.json",
 	"description": "Sets 'The Final Test' at a 'real' airfield in Cuba rather than a silo in Greenland. Works online.",
 	"authors": ["Kevin Rudd"],
+	"peacockPlugins": ["WelcomeToCuba.plugin.js"],
 	"dependencies": [
 		"00870F35C4100A12,009F13E2E3F941F2,001C19288621834A",
 		"0049E402097FE46D,000BA41D084B1850",{
